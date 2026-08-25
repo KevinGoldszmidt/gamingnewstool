@@ -1,0 +1,14 @@
+{
+  "primary": [
+    { "name": "PlayStation Blog", "url": "https://blog.playstation.com/feed" },
+    { "name": "Xbox Wire", "url": "https://news.xbox.com/en-us/feed" },
+    { "name": "GamesIndustry.biz (News)", "url": "https://www.gamesindustry.biz/feed/news" }
+  ],
+  "secondary": [
+    { "name": "Insider Gaming", "url": "https://insider-gaming.com/feed" },
+    { "name": "VGC (Video Games Chronicle)", "url": "https://www.videogameschronicle.com/feed/" },
+    { "name": "Eurogamer", "url": "https://www.eurogamer.net/feed" },
+    { "name": "IGN News", "url": "https://feeds.feedburner.com/ign/news" },
+    { "name": "Game Informer", "url": "https://www.gameinformer.com/rss.xml" }
+  ]
+}
