@@ -2,8 +2,14 @@ name: Gaming News Watch
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
-  workflow_dispatch: {}
+    # 10:00, 15:00, 21:00 Europe/Madrid time (CEST, UTC+2 in summer).
+    # Written in UTC below, so these drift by an hour once Spain
+    # switches to CET (UTC+1) in late October, that's a GitHub Actions
+    # limitation, cron can't follow a local timezone directly.
+    - cron: "0 8 * * *"
+    - cron: "0 13 * * *"
+    - cron: "0 19 * * *"
+  workflow_dispatch: {}   # lets you trigger a manual run from the Actions tab
 
 permissions:
   contents: write
